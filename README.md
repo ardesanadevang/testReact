@@ -88,3 +88,8 @@ yarn add react-native-screens react-native-safe-area-context
 npx pod-install ios
 yarn add @react-navigation/native-stack
 ```
+
+### Add Tabs (Ref: https://reactnavigation.org/docs/tab-based-navigation)
+```
+yarn add @react-navigation/bottom-tabs
+```

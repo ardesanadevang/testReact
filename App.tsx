@@ -28,6 +28,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Screen1 from './src/component/Screen1.tsx';
 import Screen2 from './src/component/Screen2.tsx';
+import AppStackScreen from './src/navigation/AppNavigation.tsx';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -37,14 +38,7 @@ function App(): React.JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Screen1" component={Screen1} />
-        <Stack.Screen name="Screen2" component={Screen2} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+  return <AppStackScreen />;
 }
 
 const styles = StyleSheet.create({
