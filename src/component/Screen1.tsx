@@ -7,7 +7,6 @@ import Tab2 from './Tab2.tsx';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 const Screen1 = () => {
-  const navigation = useNavigation();
   const Tab = createBottomTabNavigator();
   return (
     <View style={{flex: 1, alignContent: 'center'}}>
