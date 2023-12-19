@@ -80,3 +80,11 @@ To learn more about React Native, take a look at the following resources:
 
 ## Eslint-Setup
 For Webstorm go to Settings -> Language & Framework -> Javascript -> Prettier and select + Apply the options.
+
+## React Navigation setup (Ref: https://reactnavigation.org/docs/getting-started)
+```
+yarn add @react-navigation/native
+yarn add react-native-screens react-native-safe-area-context
+npx pod-install ios
+yarn add @react-navigation/native-stack
+```
