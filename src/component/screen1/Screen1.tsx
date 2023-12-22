@@ -1,6 +1,6 @@
 import {View} from 'react-native';
 import React from 'react';
-import {TAB1, TAB2} from '../Util/Constant.ts';
+import {TAB1, TAB2} from '../../Util/Constant.ts';
 import Tab1 from './Tab1.tsx';
 import Tab2 from './Tab2.tsx';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';

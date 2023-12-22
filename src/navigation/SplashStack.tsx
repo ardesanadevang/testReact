@@ -1,5 +1,5 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Screen1 from '../component/screen/Screen1.tsx';
+import Screen1 from '../component/screen1/Screen1.tsx';
 import Screen2 from '../component/screen/Screen2.tsx';
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
