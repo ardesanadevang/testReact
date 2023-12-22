@@ -15,6 +15,7 @@ import SplashStack from './src/navigation/SplashStack.tsx';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
+  const Stack = createNativeStackNavigator();
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
