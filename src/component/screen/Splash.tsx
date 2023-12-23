@@ -1,8 +1,9 @@
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
 import React, {useEffect} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {SCREEN1} from '../../Util/Constant.ts';
 import styles from '../../Util/styles.ts';
+import AppIcon from '../../assets/AppIcon.tsx';
 
 const Splash = () => {
   const navigation = useNavigation();
@@ -16,8 +17,10 @@ const Splash = () => {
 
   return (
     <View style={[styles.splashContainer]}>
-      <Text style={[styles.test]}>Splash screen</Text>
-      {/*<SvgUri uri={'../../../assets/AppIcon.svg'} />*/}
+      {/*<Text style={[styles.test]}>Splash screen</Text>*/}
+      <View style={[styles.splashIconContainer]}>
+        <AppIcon />
+      </View>
     </View>
   );
 };

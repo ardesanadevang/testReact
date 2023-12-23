@@ -8,14 +8,12 @@ export default StyleSheet.create({
   },
   splashContainer: {
     flex: 1,
-    alignItems: 'center',
-    textAlign: 'center',
     backgroundColor: appBackgroundColor,
-    flexDirection: 'row',
   },
-  test: {
-    fontSize: 20,
+  splashIconContainer: {
     flex: 1,
-    textAlign: 'center',
+    alignSelf: 'center',
+    width: '60%',
+    height: '60%',
   },
 });

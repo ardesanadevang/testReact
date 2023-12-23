@@ -94,9 +94,6 @@ yarn add @react-navigation/native-stack
 yarn add @react-navigation/bottom-tabs
 ```
 
-### Support svg (Ref: https://github.com/kristerkari/react-native-svg-transformer, https://blog.logrocket.com/how-to-use-svgs-react-native-tutorial-with-examples/)
-```
-npm i react-native-svg
-yarn add --dev react-native-svg-transformer
-```
-- Add svg file under assets in root
+### Support SVG (Ref: https://react-svgr.com/playground/?native=true)
+- Use https://react-svgr.com/playground/?native=true to convert svg to component
+- Use the component
