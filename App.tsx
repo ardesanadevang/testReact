@@ -9,13 +9,10 @@ import React from 'react';
 import {StyleSheet, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import AppStackScreen from './src/navigation/AppNavigation.tsx';
 import SplashStack from './src/navigation/SplashStack.tsx';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
-  const Stack = createNativeStackNavigator();
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,

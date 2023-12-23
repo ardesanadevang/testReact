@@ -1,3 +1,4 @@
+export const SPLASH = 'Splash';
 export const SCREEN1 = 'Screen1';
 export const SCREEN2 = 'Screen2';
 
